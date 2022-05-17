@@ -1,6 +1,7 @@
-const vect = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24];
-const numDivisible = vect.filter(n => n % 3 === 0);
-console.log(numDivisible);
+const agregarItemAlFinalDelArray = (array, elemento) =>{
+    array.push(elemento);
+  
+    return console.log(array);
+  }
 
-
-//Enviar un vector a una función flecha y editar el vector dentro de la función (añadir, eliminar, entre otros algún elemento) y retornar el mismo vector.
+  agregarItemAlFinalDelArray([20,1, 'z', 3, 1, 5,12], true);
