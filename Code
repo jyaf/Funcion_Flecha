@@ -1,7 +1,7 @@
-const agregarItemAlFinalDelArray = (array, elemento) =>{
-    array.push(elemento);
+const agregarItemAlFinal = (arreglo, item) =>{
+    arreglo.push(item);
   
-    return console.log(array);
+    return console.log('Se retorna el arreglo con el nuevo item: ', arreglo);
   }
 
-  agregarItemAlFinalDelArray([20,1, 'z', 3, 1, 5,12], true);
+  agregarItemAlFinal([20, 1, "z", 3, 1, 5, 12], true);
